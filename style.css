@@ -1,0 +1,137 @@
+/* تنسيقات أساسية وخلفية الصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: right;
+    direction: rtl;
+}
+
+/* الحاوية الرئيسية للموقع لتكون في المنتصف */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* تنسيق العناوين الرئيسية */
+h1 {
+    color: #0056b3;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+}
+
+/* تنسيق الأقسام داخل الصفحة */
+.section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* تنسيق القوائم (المهارات) */
+ul {
+    padding-right: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* تنسيق الحقول والنماذج (نموذج التواصل) */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+/* تنسيق الأزرار (مثل زر الإرسال أو تحميل السيرة الذاتية) */
+.btn {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #003d82;
+}
+/* تنسيق قسم المشاريع */
+.projects-section {
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.projects-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    border-bottom: 2px solid #0056b3; /* نفس لون الخطوط الزرقاء في موقعك */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.project-card {
+    background-color: #fcfcfc;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #24292e;
+}
+
+.project-card p {
+    color: #586069;
+    font-size: 0.95rem;
+}
+
+/* تنسيق زر جيت هوب ليطابق أزرار موقعكِ */
+.github-btn {
+    display: inline-block;
+    background-color: #0366d6; /* لون جيت هوب المميز */
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.github-btn:hover {
+    background-color: #0056b3;
+}
+
+
